@@ -3,7 +3,7 @@ import transformers as pipeline
 from transformers import AutoTokenizer,AutoModelForSequenceClassification
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipeline
 
-model_name = "Sonny4Sonnix/DistilBert_Movie_Sentiment_Analysis_1"  # Replace with the name of the pre-trained model you want to use
+model_name = "Sonny4Sonnix/twitter-roberta-base-sentimental-analysis-of-covid-tweets"  # Replace with the name of the pre-trained model you want to use
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
