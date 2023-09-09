@@ -1,5 +1,5 @@
   ## Deploying an Interactive Sentiment Analyzer with Gradio and Transformers on Hugging Face
- Python Transformers Gradio PyTorch   
+  
  ### Introduction
  
 The Movie Sentiment Analysis App is a practical demonstration of applying Natural Language Processing (NLP) techniques to analyze the sentiment of movie reviews. 
@@ -16,7 +16,7 @@ By providing a user-friendly interface for sentiment analysis, this project show
 # Summary
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------:|------:|
-| Capstone Project|The Sentiment Analysis Project| [Article]()| [Deployed App]() |
+| Capstone Project|The Sentiment Analysis Project| [Article]()| [Deployed App](Sonny4Sonnix/Movie_Sentimental_Analysis_Gradio_App_with_Twitter_roBERTa) |
 
 Gradio_App
 
@@ -38,6 +38,8 @@ Building Machine Learning Applications on huggingface With Gradio ✨
 + Project Structure
 
 + License
+
++ Resources
 
 ##  Description 🚀📊
 
@@ -123,7 +125,7 @@ Before running the app, make sure you have installed the required dependencies l
 
 * torch
 
-  ### You can install these dependencies using pip:
+### You can install these dependencies using pip:
 
   pip install -r requirements.txt
 
@@ -161,7 +163,7 @@ Input movie reviews and the app will predict the sentiment in real time.
   
   └── README.md               # Project readme
 
-  ### License 📜
+### License 📜
   
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -176,7 +178,7 @@ Huggingface makes deployment hassle-free. Feel free to customize and extend the 
 This project is developed and maintained by:
 
 Sonny Agorvor-Otchie - otchie.sonny@gmail.com 
-Authur Kwaku Gregory -
+Authur Kwaku Gregory - Gregoryarthur98@gmail.com
 David Kwesi Biney -  gyesidavid@gmail.com / gyesibiney@github.com
 Richard Fiagbeti - 
 Pamela Quartey - pcnkquartey@gmail.com
@@ -217,7 +219,7 @@ python's scripts and notebooks without any issues.
 
 NB: For MacOs users, please install Xcode if you have an issue.
 
-##Resources
+## Resources
 
 ### Quick intro to NLP
 
