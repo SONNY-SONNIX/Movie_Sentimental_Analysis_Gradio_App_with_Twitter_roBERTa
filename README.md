@@ -1,5 +1,5 @@
 ---
-title: Gradio Movie Sentiments Analysis With DistilBERT
+title: Movie_Sentimental_Analysis_Gradio_App_with_Twitter_roBERTa
 emoji: 🐢
 colorFrom: green
 colorTo: purple
