@@ -114,6 +114,28 @@ gradio run <python_script> # in the terminal
 
 This will open the App in your browser
 
+### Project Setup
+Before running the app, make sure you have installed the required dependencies listed in the requirements.txt file:
+
+* transformers
+
+* gradio
+
+* torch
+
+  ### You can install these dependencies using pip:
+
+  pip install -r requirements.txt
+
+  ### Project Structure
+
+  ├── app.py                  # Main application script
+  
+  ├── requirements.txt        # Dependencies
+  
+  └── README.md               # Project readme
+
+
 ## 👥 Authors
 This project is developed and maintained by:
 
