@@ -127,7 +127,33 @@ Before running the app, make sure you have installed the required dependencies l
 
   pip install -r requirements.txt
 
-  ### Project Structure
+### Building the Sentiment Analysis App
+
+The app is built using Gradio and Hugging Face's Transformers library. 
+
+The Python script app.py contains the app logic. 
+
+Here's an overview of the key steps:
+
+1. Load a pre-trained sentiment analysis model from Hugging Face's model hub using AutoModelForSequenceClassification and AutoTokenizer. Replace model_name with the name of the model you want to use.
+
+2. Define a function get_sentiment that takes the input text (movie review) and returns the predicted sentiment label (positive, negative, or neutral).
+
+3. Create a Gradio interface using gr.Interface. Specify that the function expects text input and produces text output.
+
+4. Launch the Gradio interface with iface.launch(inline=True).
+
+### Running the App 
+
+To run the app, execute the following command in your terminal:
+
+python app.py
+
+This will start the Gradio interface locally, and users can access it via a web browser.
+
+Input movie reviews and the app will predict the sentiment in real time.
+
+### Project Structure
 
   ├── app.py                  # Main application script
   
@@ -135,17 +161,34 @@ Before running the app, make sure you have installed the required dependencies l
   
   └── README.md               # Project readme
 
+  ### License 📜
+  
+This project is licensed under the MIT License - see the LICENSE file for details.
 
+### Conclusion and Next Steps 🏁
+
+This gradio application demonstrates how to predict movie sentiments using a machine learning model. 
+
+Huggingface makes deployment hassle-free. Feel free to customize and extend the app for your own projects!
+   
 ## 👥 Authors
+
 This project is developed and maintained by:
 
-Sonny Agorvor -Otchie feel free to reach out to me with any questions or feedback!
+Sonny Agorvor-Otchie - otchie.sonny@gmail.com 
+Authur Kwaku Gregory -
+David Kwesi Biney -  gyesidavid@gmail.com / gyesibiney@github.com
+Richard Fiagbeti - 
+Pamela Quartey - pcnkquartey@gmail.com
+
+feel free to reach out to any of the authors  with any questions or feedback!
 
 ## ✨ Acknowledgments
 
 I would like to express my gratitude to The Azubi Africa team for their valuable contributions to this project.
 
 ## 📞 Contact
+
 For any questions, concerns, or suggestions regarding this project, please contact us at otchie.sonny@gmail.com.
 
 Install the required packages to be able to run the evaluation locally.
@@ -155,6 +198,7 @@ You need to have Python3 on your system. Then you can clone this repo and being 
 Windows:
 
   python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
+  
 Linux & MacOs:
 
   python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
