@@ -1,4 +1,4 @@
-  ## Deploying an Interactive Sentiment Analyzer with Gradio and Transformers on Hugging Face
+![sentiment_img3](https://github.com/SONNY-SONNIX/Movie_Sentimental_Analysis_Gradio_App_with_Twitter_roBERTa/assets/8626857/b82ee97b-97b2-4b59-b1f4-d8845422ca91)  ## Deploying an Interactive Sentiment Analyzer with Gradio and Transformers on Hugging Face
   
  ### Introduction
  
@@ -16,7 +16,7 @@ By providing a user-friendly interface for sentiment analysis, this project show
 # Summary
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------:|------:|
-| Capstone Project|The Sentiment Analysis Project| [Article]()| [Deployed App](Sonny4Sonnix/Movie_Sentimental_Analysis_Gradio_App_with_Twitter_roBERTa) |
+| Capstone Project|The Sentiment Analysis Project| [Article]()| [Deployed App]() |
 
 Gradio_App
 
